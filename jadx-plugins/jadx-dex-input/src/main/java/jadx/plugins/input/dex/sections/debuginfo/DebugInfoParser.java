@@ -161,6 +161,8 @@ public class DebugInfoParser {
 
 				case DBG_SET_FILE: {
 					int idx = in.readUleb128() - 1;
+					//TODO: Remove the this.sourceFile field as it is never read
+					//FIXME: Delete the line of code 
 					this.sourceFile = ext.getString(idx);
 					break;
 				}
