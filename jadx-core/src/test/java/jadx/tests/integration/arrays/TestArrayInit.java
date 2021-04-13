@@ -16,6 +16,8 @@ public class TestArrayInit extends IntegrationTest {
 
 		@SuppressWarnings("unused")
 		public void test() {
+			//TODO: Remove the byte array object as it never used in the future code
+			//FIXME: Delete teh object that is made
 			byte[] arr = new byte[] { 10, 20, 30 };
 		}
 
