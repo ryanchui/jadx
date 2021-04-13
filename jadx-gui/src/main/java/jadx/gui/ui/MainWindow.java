@@ -1148,6 +1148,8 @@ public class MainWindow extends JFrame {
 						case 5:
 							tabbedPane.navForward();
 							break;
+						//TODO: default case is missing, hence we need to add it
+						//FIXME: Add the default case
 					}
 				}
 			}
