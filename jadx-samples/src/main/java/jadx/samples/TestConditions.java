@@ -54,7 +54,7 @@ public class TestConditions extends AbstractTest {
 	}
 
 	public boolean test5(int num) {
-		
+
 		return num > 5 && (num < 10);
 	}
 
