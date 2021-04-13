@@ -29,7 +29,7 @@ public class TestGenerics2 extends IntegrationTest {
 			private Map<Object, ItemReference<V>> items;
 
 			public V get(Object id) {
-				
+
 				if (this.items.get(id) != null) {
 					return this.items.get(id).get();
 				}
