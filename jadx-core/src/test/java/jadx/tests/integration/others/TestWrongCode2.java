@@ -31,13 +31,6 @@ public class TestWrongCode2 extends IntegrationTest {
 			}
 		}
 
-		public boolean test4() {
-
-			//TODO: Remove the test as it will always return false
-			//FIXME: Delete the test4 method
-
-			return null instanceof A;
-		}
 
 		// everything is 'A' :)
 		@SuppressWarnings({ "MethodName", "LocalVariableName" }) // ignore checkstyle
