@@ -770,8 +770,9 @@ public class InsnGen {
 					code.add('.');
 				}
 				break;
-				//TODO: default case is missing, hence we need to add it
-				//FIXME: Add the default case
+			default:
+				System.out.println("Not a valid case.");
+				break;
 		}
 		if (callMthNode != null) {
 			code.attachAnnotation(callMthNode);
