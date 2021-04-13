@@ -54,9 +54,8 @@ public class TestConditions extends AbstractTest {
 	}
 
 	public boolean test5(int num) {
-		//TODO: Remove the condition as it has no effect
-		//FIXME: Remove the 'num == 7' condition
-		return num > 5 && (num < 10 || num == 7);
+		
+		return num > 5 && (num < 10);
 	}
 
 	private boolean test6(boolean a, boolean b, boolean c) {

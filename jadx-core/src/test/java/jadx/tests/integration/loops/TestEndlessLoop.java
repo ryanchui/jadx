@@ -12,7 +12,7 @@ public class TestEndlessLoop extends IntegrationTest {
 
 	public static class TestCls {
 
-		
+
 		void test2() {
 			do {
 			} while (this == this);
