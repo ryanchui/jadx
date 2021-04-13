@@ -13,6 +13,8 @@ public class TestEndlessLoop extends IntegrationTest {
 	public static class TestCls {
 
 		void test1() {
+			// TODO: Remove dead code
+			// FIXME: 'this' is compared to 'this' again hence remove it
 			while (this == this) {
 			}
 		}
