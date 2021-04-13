@@ -180,6 +180,8 @@ public class EntryConfig {
 			case SCREENLAYOUT_LAYOUTDIR_LTR:
 				ret.append("-ldltr");
 				break;
+			//TODO: default case is missing, hence we need to add it
+			//FIXME: Add the default case 
 		}
 		if (smallestScreenWidthDp != 0) {
 			ret.append("-sw").append(smallestScreenWidthDp).append("dp");
